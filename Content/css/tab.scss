@@ -1,0 +1,17 @@
+.tab {
+    max-width: 500px;
+    height: 200px;
+}
+
+.title {
+    background-color: red;
+    display: -webkit-flex;
+    li {
+        flex: 1;
+    }
+}
+
+.content {
+	height:100%;
+    border: 1px solid #ccc;
+}

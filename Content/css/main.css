@@ -1,0 +1,27 @@
+.tab {
+    max-width: 500px;
+    height: 200px;
+}
+
+.title {
+    background-color: red;
+    display: -webkit-flex;
+}
+
+.title li.active {
+    background-color: yellow;
+}
+
+.title li {
+    flex: 1;
+}
+
+.content {
+    overflow: hidden;
+    height: 200px;
+    border: 1px solid #ccc;
+}
+
+.content li {
+    height: 100%;
+}
